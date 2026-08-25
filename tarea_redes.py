@@ -81,7 +81,7 @@ for fila in datos:
         for i in range(3, 9):
             suma_twitter_megusta = suma_twitter_megusta + int(fila[i])
 
-    if fila[0] == "FACEBOOK" and fila[1] == "ME GUSTA":
+    if fila[0] == "FACEBOOK" and fila[1] == "ME GUSTA EN PUBLICACIONES":
         for i in range(3, 9):
             suma_facebook_megusta = suma_facebook_megusta + int(fila[i])
 
